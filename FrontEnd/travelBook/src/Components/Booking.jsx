@@ -104,7 +104,8 @@ const Booking = () => {
   },
   ];
 
-const backend = "http://localhost:3000/";
+// const backend = "http://localhost:3000/";
+const backend = "https://rcbproject.onrender.com/";
 
   const [formData, setFormData] = useState({
     fullName: "",

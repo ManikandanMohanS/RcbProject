@@ -6,7 +6,8 @@ const Admin = () => {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const backendUrl = 'http://localhost:3000/api/';
+  // const backendUrl = 'http://localhost:3000/api/';
+  const backendUrl = 'https://rcbproject.onrender.com/api/';
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loginError, setLoginError] = useState('');
